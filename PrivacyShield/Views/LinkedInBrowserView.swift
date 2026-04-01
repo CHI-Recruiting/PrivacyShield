@@ -77,7 +77,7 @@ struct LinkedInBrowserView: View {
                         Circle()
                             .fill(accountHealth.scoreColor)
                             .frame(width: 8, height: 8)
-                        Text("PrivacyShield")
+                        Text("ARMANOS")
                             .font(.headline)
                         if isLoading {
                             ProgressView()

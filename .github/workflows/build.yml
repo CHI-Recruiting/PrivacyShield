@@ -1,4 +1,4 @@
-name: Build PrivacyShield IPA
+name: Build ARMANOS IPA
 
 on:
   push:
@@ -25,8 +25,8 @@ jobs:
       - name: Build app (no signing)
         run: |
           xcodebuild build \
-            -project PrivacyShield.xcodeproj \
-            -scheme PrivacyShield \
+            -project ARMANOS.xcodeproj \
+            -scheme ARMANOS \
             -sdk iphoneos \
             -configuration Release \
             -derivedDataPath build \
@@ -39,13 +39,13 @@ jobs:
       - name: Create IPA
         run: |
           mkdir -p Payload
-          cp -r build/Build/Products/Release-iphoneos/PrivacyShield.app Payload/
-          zip -r PrivacyShield.ipa Payload
+          cp -r build/Build/Products/Release-iphoneos/ARMANOS.app Payload/
+          zip -r ARMANOS.ipa Payload
           rm -rf Payload
 
       - name: Upload IPA
         uses: actions/upload-artifact@v4
         with:
-          name: PrivacyShield-IPA
-          path: PrivacyShield.ipa
+          name: ARMANOS-IPA
+          path: ARMANOS.ipa
           retention-days: 90

@@ -1,4 +1,4 @@
-name: PrivacyShield
+name: ARMANOS
 options:
   bundleIdPrefix: com.privacyshield
   deploymentTarget:
@@ -13,27 +13,27 @@ settings:
     INFOPLIST_KEY_UISupportedInterfaceOrientations: "UIInterfaceOrientationPortrait"
 
 targets:
-  PrivacyShield:
+  ARMANOS:
     type: application
     platform: iOS
     sources:
-      - path: PrivacyShield
+      - path: ARMANOS
         excludes:
           - "**/.DS_Store"
     resources:
-      - path: PrivacyShield/Resources
+      - path: ARMANOS/Resources
         buildPhase: resources
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.privacyshield.app
-        INFOPLIST_KEY_CFBundleDisplayName: PrivacyShield
+        INFOPLIST_KEY_CFBundleDisplayName: ARMANOS
         CODE_SIGN_IDENTITY: ""
         CODE_SIGNING_REQUIRED: "NO"
         CODE_SIGNING_ALLOWED: "NO"
     info:
-      path: PrivacyShield/Info.plist
+      path: ARMANOS/Info.plist
       properties:
-        CFBundleDisplayName: PrivacyShield
+        CFBundleDisplayName: ARMANOS
         CFBundleShortVersionString: "1.0.0"
         CFBundleVersion: "1"
         UILaunchScreen: {}
@@ -56,5 +56,5 @@ targets:
     info:
       path: ContentBlockerExtension/Info.plist
     dependencies:
-      - target: PrivacyShield
+      - target: ARMANOS
         embed: false

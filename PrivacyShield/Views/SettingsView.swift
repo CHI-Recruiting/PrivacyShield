@@ -123,7 +123,7 @@ struct SettingsView: View {
                 } header: {
                     Text("О приложении")
                 } footer: {
-                    Text("PrivacyShield — защита вашей приватности в LinkedIn")
+                    Text("ARMANOS — защита вашей приватности в LinkedIn")
                 }
             }
             .navigationTitle("Настройки")
