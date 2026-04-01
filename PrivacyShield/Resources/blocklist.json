@@ -1,0 +1,118 @@
+[
+    {
+        "trigger": { "url-filter": "px\\.ads\\.linkedin\\.com" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": "linkedin\\.com/li/track" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": "platform\\.linkedin\\.com/litms" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": "snap\\.licdn\\.com" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": "dc\\.ads\\.linkedin\\.com" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": "ads\\.linkedin\\.com" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": "analytics\\.pointdrive\\.linkedin\\.com" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": "tr\\.lnkd\\.in" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": "linkedin\\.com/px/" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": "lms-analytics" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": "graph\\.facebook\\.com" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": "analytics\\.google\\.com" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": "firebaselogging-pa\\.googleapis\\.com" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": "app-measurement\\.com" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": "doubleclick\\.net" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": "googlesyndication\\.com" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": "googletagmanager\\.com" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": "google-analytics\\.com" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": "linkedin\\.com/voyager/api/contentcreation/normShares.*tracking" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": "linkedin\\.com/voyager/api/li/track" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": "linkedin\\.com/voyager/api/.*analytics" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": "realtime\\.www\\.linkedin\\.com.*track" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": "linkedin\\.com/li/fta" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": "linkedin\\.com/csp/fta" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": "sentry\\.io" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": "bat\\.bing\\.com" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": "clarity\\.ms" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": "ok\\.linkedin\\.com" },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": { "url-filter": "customer\\.analytics\\.linkedin\\.com" },
+        "action": { "type": "block" }
+    }
+]

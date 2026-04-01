@@ -1,0 +1,116 @@
+[
+    {
+        "trigger": {
+            "url-filter": "px\\.ads\\.linkedin\\.com",
+            "load-type": ["third-party"]
+        },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": {
+            "url-filter": "snap\\.licdn\\.com/li\\.lms-analytics",
+            "load-type": ["third-party"]
+        },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": {
+            "url-filter": "snap\\.licdn\\.com.*insight",
+            "load-type": ["third-party"]
+        },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": {
+            "url-filter": "dc\\.ads\\.linkedin\\.com",
+            "load-type": ["third-party"]
+        },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": {
+            "url-filter": "ads\\.linkedin\\.com",
+            "load-type": ["third-party"]
+        },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": {
+            "url-filter": "tr\\.lnkd\\.in",
+            "load-type": ["third-party"]
+        },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": {
+            "url-filter": "linkedin\\.com/px/",
+            "load-type": ["third-party"]
+        },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": {
+            "url-filter": "linkedin\\.com/li/track",
+            "load-type": ["third-party"]
+        },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": {
+            "url-filter": "platform\\.linkedin\\.com/litms",
+            "load-type": ["third-party"]
+        },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": {
+            "url-filter": "linkedin\\.com/csp/fta",
+            "load-type": ["third-party"]
+        },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": {
+            "url-filter": "linkedin\\.com/li/fta",
+            "load-type": ["third-party"]
+        },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": {
+            "url-filter": "linkedin\\.com.*badge",
+            "resource-type": ["image", "script"],
+            "load-type": ["third-party"]
+        },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": {
+            "url-filter": "platform\\.linkedin\\.com/in\\.js",
+            "load-type": ["third-party"]
+        },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": {
+            "url-filter": ".*\\.linkedin\\.com",
+            "resource-type": ["raw"],
+            "load-type": ["third-party"]
+        },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": {
+            "url-filter": "ok\\.linkedin\\.com",
+            "load-type": ["third-party"]
+        },
+        "action": { "type": "block" }
+    },
+    {
+        "trigger": {
+            "url-filter": "customer\\.analytics\\.linkedin\\.com",
+            "load-type": ["third-party"]
+        },
+        "action": { "type": "block" }
+    }
+]

@@ -1,0 +1,37 @@
+{
+    "version": 1,
+    "description": "LinkedIn tracker domains for DNS-level blocking",
+    "categories": {
+        "analytics": [
+            "px.ads.linkedin.com",
+            "dc.ads.linkedin.com",
+            "ads.linkedin.com",
+            "analytics.pointdrive.linkedin.com",
+            "snap.licdn.com"
+        ],
+        "tracking": [
+            "www.linkedin.com/li/track",
+            "platform.linkedin.com/litms",
+            "www.linkedin.com/px/",
+            "tr.lnkd.in",
+            "www.linkedin.com/li/fta",
+            "www.linkedin.com/csp/fta"
+        ],
+        "insight_tag": [
+            "snap.licdn.com/li.lms-analytics/insight.min.js"
+        ],
+        "third_party": [
+            "graph.facebook.com",
+            "analytics.google.com",
+            "google-analytics.com",
+            "googletagmanager.com",
+            "firebaselogging-pa.googleapis.com",
+            "app-measurement.com",
+            "doubleclick.net",
+            "googlesyndication.com",
+            "sentry.io",
+            "bat.bing.com",
+            "clarity.ms"
+        ]
+    }
+}
